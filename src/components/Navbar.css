@@ -1,0 +1,24 @@
+.navItems{
+    color: white;
+    font-family: 'Chillax', sans-serif;
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.navItems::after{
+    content: " ";
+    display: flex;
+    background-color: white;
+    width: 2px;
+    height: 40px;
+    margin: 0 15px;
+}
+
+.NAV-LINK{
+    margin: 0 0 0 auto;
+    z-index: 4;
+}
