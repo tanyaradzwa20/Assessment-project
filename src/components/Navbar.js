@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
-import './Navbar.css'
+import './Components.css'
 import styled from 'styled-components';
 import {NavbarData} from './NavItems'
 
@@ -50,10 +50,8 @@ margin: 0 3%;
 
 
 function Navbar() {
-
     return (
         <>
-        <div className="navbar">
             <NavLogoContent>
 
             <NavItems>
@@ -68,14 +66,9 @@ function Navbar() {
                     })}
                 <Logo src={require('../images/Scratchlogo.png')} alt="assessmentimage"/>               
 
-                
-
             </NavItems>
             <Link to="/" className='Links NAV-LINK'>Get Coding!</Link>
             </NavLogoContent>
-
-        </div>
-
         </>
     )
 }

@@ -3,7 +3,7 @@ import './Home.css'
 // import { Container, Row, Col,} from "react-bootstrap"
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-
+import Cards from '../components/Cards'
 
 
 const Hero = styled.div`
@@ -36,6 +36,7 @@ object-fit: cover;
 width: 100%;
 top: -45%;
 position: relative;
+z-index: 5;
 
 `
 
@@ -77,6 +78,7 @@ function Home(){
     return (<>
         <Billboard/>
         <BillboardInner/>
+        <Cards/>
     </>
 
     )

@@ -12,5 +12,12 @@ text-decoration: none;
 font-family: 'Wiggly Curves', sans-serif;
 letter-spacing: .5px;
 margin: 3% auto ;
+z-index: 10;
+position: relative;
 
+}
+
+.Links:hover{
+    color: black;
+    text-decoration: none;
 }
